@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #070a12;
+}
+
+.container {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fake-button {
+    background-color: #1e293b;
+    padding: 12px 30px;
+    font-size: 20px;
+    color: #e2e8f0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.botao {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #3b82f6;
+    padding: 20px 40px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.botao:hover {
+    background-color: #2563eb;
+}
